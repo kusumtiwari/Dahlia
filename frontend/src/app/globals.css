@@ -1,0 +1,31 @@
+/* inter font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+/* mulish font  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('/fonts/SourceSerifPro-SemiBoldIt.otf') format('opentype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.box-shadow {
+  box-shadow: 0 4px 12px 2px rgba(0, 0, 0, 0.1);
+}
+
+.rotate {
+  cursor: pointer;
+}
+.rotate:hover {
+  transform: rotate(360deg) scale(1.2);
+  transition: 0.8s ease-in-out;
+}
+
+.active {
+  border-bottom: 2px solid #853036;
+}
